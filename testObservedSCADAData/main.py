@@ -18,7 +18,7 @@ if __name__=='__main__':
     scaler = preprocessing.MinMaxScaler()
     data=scaler.fit_transform(data)
 
-    ##data Must be dict form could test a group of WTs simultaneously
+    ##data Must be dict form which ensures the model to test a group of WTs simultaneously
     data={'sample':data}
 
     #fwpcL is a list contains fwpc sequentially
