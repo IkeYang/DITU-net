@@ -21,7 +21,7 @@ if __name__=='__main__':
     ##data Must be dict form which ensures the model to test a group of WTs simultaneously
     data={'sample':data}
 
-    #fwpcL is a list contains fwpc sequentially
+    #fwpcL is a list containing fwpc sequentially
     fwpcL=pipLineTestUnet(data)
 
     #display result
