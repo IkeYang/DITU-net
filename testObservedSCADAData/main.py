@@ -8,7 +8,7 @@ from sklearn import preprocessing
 from testObservedSCADAData.testPic import pipLineTestUnet
 # wind speed, wind power
 if __name__=='__main__':
-    #load data with form [bs,[wind speed, wind power]]
+    #load data with form [n,[wind speed, wind power]]
     data=np.loadtxt('..\SCADAData\sample.csv', delimiter=",")
     #delete NAN
     data = data[~np.isnan(data[:, 0]), :]
